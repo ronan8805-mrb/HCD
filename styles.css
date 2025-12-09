@@ -297,12 +297,6 @@ blockquote cite {
     text-align: center;
 }
 
-/* Instagram Section */
-.insta-section {
-    padding: 6rem 0;
-    background-color: var(--bg-secondary);
-}
-
 /* Services Section */
 .services-section {
     padding: 6rem 0;
@@ -388,6 +382,19 @@ blockquote cite {
     background-color: #222;
     border: 1px solid rgba(212, 175, 55, 0.2);
     filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
+/* Instagram Section */
+.insta-section {
+    padding: 6rem 0;
+    background-color: var(--bg-secondary);
+}
+
+.insta-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 3rem;
 }
 
 .insta-item {
@@ -597,10 +604,7 @@ footer {
 
     .hero-btns {
         flex-direction: column;
-        width: 100%;
-    }
-}
 
-.hero {
-    background-color: #000000;
-}
+        width: 100%Human: Step Id: 551 continue .hero {
+            background-color: #000000;
+        }
